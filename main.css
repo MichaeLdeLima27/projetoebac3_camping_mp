@@ -1,0 +1,120 @@
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+
+.custom-list {
+    list-style: none;  
+    padding: 0;  
+    margin: 0;  
+}
+
+.custom-item {
+    background-color: #d8e2bb;  
+    border: 1px solid #1a663b;  
+    border-radius: 5px; 
+    margin-bottom: 10px;  
+    padding: 10px; 
+    transition: background-color 0.3s, transform 0.3s;  
+}
+
+
+.custom-link {
+    color: #1a663b; 
+    text-decoration: none; 
+    display: block; 
+    font-family: Roboto, sans-serif;  
+}
+
+
+.custom-item:hover {
+    background-color: #ffeae6; 
+    transform: scale(1.05);  
+}
+
+
+.custom-link:hover {
+    color: #fff;  
+    background-color: #1a663b; 
+    text-decoration: none;  
+}
+
+
+.navbar {
+    background-color: #1a663b;  
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #1a663b;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-acomodacoes .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+    font-size: 30px;
+}
+
+#sobre-o-camping, #nossas-acomodacoes {
+    background-color: #d8e2bb;
+}
+
+.text-colored {
+    color: #1a663b;
+}
+
+.nav-acomodacoes .nav-link.active,
+#fale-conosco button {
+    background-color: #1a663b;
+    color: #fff;
+}
+
+.nav-acomodacoes .nav-link:hover {
+    color: #1a663b;
+}
+
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+#carousel {
+    height: 600px; 
+    overflow: hidden; 
+}
+
+#carousel .carousel-inner {
+    height: 100%;
+}
+
+#carousel .carousel-item {
+    height: 100%;
+}
+
+#carousel .carousel-item img {
+    height: 100%;
+    object-fit: cover; 
+}
